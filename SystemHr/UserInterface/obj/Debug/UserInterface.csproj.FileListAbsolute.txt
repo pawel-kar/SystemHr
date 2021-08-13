@@ -1,0 +1,15 @@
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\UserInterface.csprojAssemblyReference.cache
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\UserInterface.csproj.GenerateResource.cache
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\UserInterface.csproj.CoreCompileInputs.cache
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\bin\Debug\SystemHR.exe.config
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\bin\Debug\SystemHR.exe
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\bin\Debug\SystemHR.pdb
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\bin\Debug\DataAccessLayer.dll
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\bin\Debug\DataAccessLayer.pdb
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.UserInterface.Properties.Resources.resources
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\UserInterface.csproj.CopyComplete
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.exe
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.pdb
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.UserInterface.Forms.MainForm.resources
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.UserInterface.Forms.Contracts.ContractsForm.resources
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.UserInterface.Forms.Employees.EmployeesForm.resources
