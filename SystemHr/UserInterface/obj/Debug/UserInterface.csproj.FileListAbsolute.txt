@@ -11,3 +11,5 @@ C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\UserInte
 C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.exe
 C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.pdb
 C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.UserInterface.Forms.MainForm.resources
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.UserInterface.Forms.Contracts.ContractsForm.resources
+C:\Users\Karpiki\source\repos\SystemHr\SystemHr\UserInterface\obj\Debug\SystemHR.UserInterface.Forms.Employees.EmployeesForm.resources

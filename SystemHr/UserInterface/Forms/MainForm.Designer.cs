@@ -45,13 +45,15 @@ namespace SystemHR.UserInterface.Forms
             this.btnEmployees = new System.Windows.Forms.Button();
             this.tpConfiguration = new System.Windows.Forms.TabPage();
             this.ssMain = new System.Windows.Forms.StatusStrip();
-            this.pMain = new System.Windows.Forms.Panel();
             this.tsslVersion = new System.Windows.Forms.ToolStripStatusLabel();
             this.tsslDataBase = new System.Windows.Forms.ToolStripStatusLabel();
             this.tsslUser = new System.Windows.Forms.ToolStripStatusLabel();
+            this.pMain = new System.Windows.Forms.Panel();
+            this.tcTabs = new System.Windows.Forms.TabControl();
             this.tcMain.SuspendLayout();
             this.tpGeneral.SuspendLayout();
             this.ssMain.SuspendLayout();
+            this.pMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // tcMain
@@ -197,6 +199,7 @@ namespace SystemHR.UserInterface.Forms
             this.btnContracts.TabIndex = 2;
             this.btnContracts.Text = "Umowy";
             this.btnContracts.UseVisualStyleBackColor = false;
+            this.btnContracts.Click += new System.EventHandler(this.btnContracts_Click);
             // 
             // splitter1
             // 
@@ -221,6 +224,7 @@ namespace SystemHR.UserInterface.Forms
             this.btnEmployees.Text = "Pracownicy";
             this.btnEmployees.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEmployees.UseVisualStyleBackColor = false;
+            this.btnEmployees.Click += new System.EventHandler(this.btnEmployees_Click);
             // 
             // tpConfiguration
             // 
@@ -228,7 +232,7 @@ namespace SystemHR.UserInterface.Forms
             this.tpConfiguration.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tpConfiguration.Name = "tpConfiguration";
             this.tpConfiguration.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.tpConfiguration.Size = new System.Drawing.Size(864, 46);
+            this.tpConfiguration.Size = new System.Drawing.Size(864, 39);
             this.tpConfiguration.TabIndex = 1;
             this.tpConfiguration.Text = "Konfiguracja";
             this.tpConfiguration.UseVisualStyleBackColor = true;
@@ -246,16 +250,6 @@ namespace SystemHR.UserInterface.Forms
             this.ssMain.Size = new System.Drawing.Size(872, 26);
             this.ssMain.TabIndex = 1;
             this.ssMain.Text = "statusStrip1";
-            // 
-            // pMain
-            // 
-            this.pMain.BackColor = System.Drawing.Color.White;
-            this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pMain.Location = new System.Drawing.Point(0, 75);
-            this.pMain.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pMain.Name = "pMain";
-            this.pMain.Size = new System.Drawing.Size(872, 452);
-            this.pMain.TabIndex = 2;
             // 
             // tsslVersion
             // 
@@ -277,6 +271,29 @@ namespace SystemHR.UserInterface.Forms
             this.tsslUser.Size = new System.Drawing.Size(184, 20);
             this.tsslUser.Text = "Użytkownik: Bruta Pawa";
             // 
+            // pMain
+            // 
+            this.pMain.BackColor = System.Drawing.Color.White;
+            this.pMain.Controls.Add(this.tcTabs);
+            this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pMain.Location = new System.Drawing.Point(0, 75);
+            this.pMain.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pMain.Name = "pMain";
+            this.pMain.Size = new System.Drawing.Size(872, 452);
+            this.pMain.TabIndex = 2;
+            // 
+            // tcTabs
+            // 
+            this.tcTabs.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tcTabs.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
+            this.tcTabs.Location = new System.Drawing.Point(0, 0);
+            this.tcTabs.Name = "tcTabs";
+            this.tcTabs.SelectedIndex = 0;
+            this.tcTabs.Size = new System.Drawing.Size(872, 452);
+            this.tcTabs.TabIndex = 0;
+            this.tcTabs.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tcTabs_DrawItem);
+            this.tcTabs.MouseDown += new System.Windows.Forms.MouseEventHandler(this.tcTabs_MouseDown);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -286,6 +303,7 @@ namespace SystemHR.UserInterface.Forms
             this.Controls.Add(this.ssMain);
             this.Controls.Add(this.tcMain);
             this.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "MainForm";
             this.ShowIcon = false;
@@ -295,6 +313,7 @@ namespace SystemHR.UserInterface.Forms
             this.tpGeneral.ResumeLayout(false);
             this.ssMain.ResumeLayout(false);
             this.ssMain.PerformLayout();
+            this.pMain.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,5 +340,6 @@ namespace SystemHR.UserInterface.Forms
         private System.Windows.Forms.ToolStripStatusLabel tsslVersion;
         private System.Windows.Forms.ToolStripStatusLabel tsslDataBase;
         private System.Windows.Forms.ToolStripStatusLabel tsslUser;
+        private System.Windows.Forms.TabControl tcTabs;
     }
 }
